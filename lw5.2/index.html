@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+        <title> Моя первая страница </title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        
+    </head>
+    <body>
+        
+        <div class="form_block" id="form">
+            <div id="top"></div>
+            <div class="form_exit" id="close_form"></div>
+            <div class="form_title">
+                <span>НАПИШИ МНЕ</span>
+            </div>
+            <div class="form">
+            <form action="">
+                <div class="form_name">
+                    <label class="form_label_star" for="name">Ваше имя</label>
+                    <input class="requied_field" id="name" name="name">
+                </div>
+                <div class="form_email">
+                    <label class="form_label_star" for="email">Ваш email</label>
+                    <input class='requied_field' name="email" id="email">
+                </div>
+                <div class="form_country">
+                    <label for="countries">Откуда вы?</label>
+                    <select name="country" id="countries" size="1">
+                        <option selected value="Russia">Россия</option>
+                        <option value="Britan">Англия</option>
+                        <option value="Germany">Германия</option>
+                        <option value="USA">США</option>
+                    </select>
+                </div>
+                <div class="form_gender">
+                    <span>Ваш пол</span>
+                    <p>
+                        <input type="radio" name="gender" value="Men" id="men"><label class="form_gender_lable_first" for="men">Мужской</label>
+                        <input type="radio" name="gender" value="Women" id="women"><label for="women">Женский</label>
+                    </p>
+                </div>
+                <div class="form_message">
+                    <label class="form_label_star" for="message">Ваше сообщение</label>
+                    <textarea class="requied_field" name="message" id="message"></textarea>
+                </div>
+                <button class="form_button" id="submit">Отправить</button>
+            </form>
+            </div>
+        </div>
+        
+        <div id="mask">
+            
+        <div class="header">
+            <div class="header_links">
+                <a class="header_link_about_me" href="#">Обо мне</a>
+                <a class="header_link_hobbies" href="#">Мое хобби</a>
+                <a class="header_link_movies" href="#">Любимые фильмы</a>
+                <div class="clear"></div>
+            </div>
+            <div class="header_background">
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="left_content">
+                <div class="photo">
+                    <img class="photo" src="img/photo.jpg" alt="Здесь должно быть изображение((">
+                </div>
+                <div class="clear"></div>
+                <div class="writers">
+                <p class="slide_bar_title">Любимые писатели:</p>
+                    <ul class="slide_bar_text">
+				        <li>А.С. Пушкин</li>
+				        <li>Л.Н. Толстой</li>
+				        <li>Замятин</li>
+				        <li>Дж. Лондон</li>
+                    </ul>
+                </div>
+                <div class="movies">
+                <p class="slide_bar_title">Любимые фильмы:</p>	
+                    <ol class="slide_bar_text">
+                        <li>Мстители</li>
+                        <li>Аватар</li>
+                        <li>Стражи галактики</li>
+                        <li>Такси</li>
+                    </ol>
+                </div>
+                <div class="clear"></div>
+		    </div>
+            <div class="rigth_content">
+                <div class="quote">
+                    <blockquote>
+                        <p class="quote_text">Пройденный путь и есть награда</p>
+                        <p class="quote_author">— Steve Jobs</p>
+                    </blockquote>
+                </div>
+                <div class="about_me">
+                    <p class="about_me_title">Черепанов Глеб</p>
+                    <div class="about_me_title_lane"></div>
+                <p class="about_me_text">
+                        Я - Черепанов Глеб Евгеньевич. Учился в школе № 30 с первого по 9 класс. После школы я поступил в Государственное Бюджетное Образовательное Учереждение - Лицей "Мегатех". 
+                        После лицея я поступил в Поволжский Государственный Технологический Университет.
+                    </p>
+                </div>
+                <div class="hobbies">
+                    <p class="hobbies_title">Мое хобби</p>
+                    <p class="hobbies_text">
+                        Мое хобби - ничего не делать. Я могу хоть целый день ничего не делать, а потом и следующий день и не устаю. Ничего не делать это круто!
+                    </p>
+                </div>
+                <a href="#top" class="write_me" id="button"><span class="write_me_text">Напиши мне</span> →</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="favourite_movies">
+            <p class="favourite_movies_title">Любимые фильмы</p>
+            <div class="movie_block first">
+                <img class="movie_block_image" src="img/taxi.jpg" alt="movie_taxi">
+                <p class="movie_block_title">Такси</p>
+                <p class="movie_block_text">
+                    Действие фильма происходит в Марселе. В фильме рассказывается о молодом доставщике пиццы Даниэле, который увольняется со своей работы и становится таксистом. Он модифицирует свой Peugeot 406 так, что ездит быстрее любого другого. В связи с этим ему не по душе полицейские, которые следят за превышением скорости на дорогах. Судьба сводит его с Эмильеном — полицейским, которому вечно не везёт; он с восьмой попытки не сдаёт экзамен на права и говорит всем, что работает в IBM. Даниэль подвозит Эмильена, переодетого в гражданскую одежду, превышая при этом скорость и нарушая другие правила дорожного движения.
+                </p>
+            </div>
+            <div class="movie_block second">
+                <img class="movie_block_image" src="img/avatar.jpg" alt="movie_avatar">
+                <p class="movie_block_title">Аватар</p>
+                <p class="movie_block_text">
+                    «Авата́р» (англ. Avatar, МФА: [ˈæv.ə.tɑɹ]) — американский научно-фантастический фильм 2009 года сценариста и режиссёра Джеймса Кэмерона с Сэмом Уортингтоном и Зои Салдана в главных ролях. Действие фильма происходит в 2154 году, когда человечество добывает ценный минерал анобтаниум на Пандоре, обитаемом спутнике газовой планеты в звёздной системе Альфы Центавра. По сюжету ресурсодобывающая корпорация угрожает существованию местного племени человекоподобных разумных существ — на’ви. Название фильма — название генетически спроектированных тел, гибридов на’ви и людей, используемых командой исследователей для изучения планеты и взаимодействия с туземными жителями Пандоры.
+                </p>
+            </div>
+            <div class="movie_block third">
+                <img class="movie_block_image" src="img/guardians.jpg" alt="movie_guardians">
+                <p class="movie_block_title">Стражи галактики</p>
+                <p class="movie_block_text">
+                    «Стражи Галактики» (англ. Guardians of the Galaxy, также известен как Guardians of the Galaxy Vol. 1) —— американский приключенческий фильм 2014 года, снятый режиссёром Джеймсом Ганном по мотивам комиксов Дэна Абнетта и Энди Леннинга (англ.)русск. издательства Marvel Comics. Является десятой картиной кинематографической вселенной Marvel. Главные роли исполнили Крис Прэтт, Зои Салдана, Дэйв Батиста, Вин Дизель и Брэдли Купер. По сюжету Питер Квилл формирует непростой союз с группой внеземных неудачников, которые спасаются бегством из тюрьмы после кражи таинственного артефакта.
+                </p>
+            </div>
+            <div class="movie_block last">
+                <img class="movie_block_image" src="img/averengers.jpg" alt="movie_averenges">
+                <p class="movie_block_title">Мстители</p>
+                <p class="movie_block_text">
+                    «Мсти́тели» (англ. The Avengers[комм 1]) — американский художественный фильм о супергероях с элементами комедии режиссёра Джосса Уидона, основанный на одноимённых комиксах издательства Marvel Comics. Картина является шестым по счёту в кинематографической вселенной Marvel, а также общим сиквелом предществующих экранизаций: «Железный человек» (2008), «Невероятный Халк» (2008), «Железный человек 2» (2010), «Тор» (2011) и «Первый мститель» (2011).
+                </p>
+            </div>
+            <div class="clear"></div>
+            <div id="more_movie" class="more_movies">
+                <div class="movie_block first">
+                    <img class="movie_block_image" src="img/deadpool.jpg" alt="movie_deadpool">
+                    <p class="movie_block_title">Дедпул</p>
+                    <p class="movie_block_text">
+                        Уэйд Уилсон — бывший солдат спецназа, подрабатывающий наёмником в Нью-Йорке. В местном баре своего друга Хорька Уэйд встречает проститутку Ванессу Карлайл, с которой у него впоследствии завязываются романтические отношения. Спустя год Уэйд делает Ванессе предложение, и она соглашается. Внезапно Уэйд падает в обморок и на следующий день ему диагностируют рак в последней стадии. Ванесса просит Уэйда остаться с ней, но Уэйд не хочет, чтобы она видела его смерть.
+                    </p>
+                </div>
+                <div class="movie_block second">
+                    <img class="movie_block_image" src="img/interstellar.jpg" alt="movie_avatar">
+                    <p class="movie_block_title">Интерстеллар</p>
+                    <p class="movie_block_text">
+                        В недалёком будущем из-за развития патогенных бактерий концентрация кислорода в атмосфере Земли необратимо падает, что вызывает ухудшение климата и грозит неминуемой гибелью человечества. Бывший пилот НАСА Купер ведёт фермерское хозяйство со своей семьёй в американской глубинке, страдая от неурожая и пыльных бурь. Его дочь Мёрф рассказывает о том, что её комнату посещает призрак и сбрасывает книги с полки. Купер, разобравшись, понимает, что аномальные явления не выдумка, и даже обнаруживает вместе с дочерью закономерности в действиях призрака. Проанализировав их, он вычисляет координаты некоего объекта, оказавшегося секретным подразделением НАСА.
+                    </p>
+                </div>
+                <div class="movie_block third">
+                    <img class="movie_block_image" src="img/home_alone.jpg" alt="movie_guardians">
+                    <p class="movie_block_title">Один дома</p>
+                    <p class="movie_block_text">
+                        Семья Маккаллистеров, которая готовится провести Рождество в Париже, в ночь перед отъездом собралась в доме Питера и Кейт, расположенном неподалёку от Чикаго. Младшего сына хозяев дома, восьмилетнего Кевина, высмеивают как родные братья и сёстры, так и другие родственники. Ссора со старшим братом-задирой Баззом приводит к тому, что в качестве наказания Кевина отправляют ночевать на чердак дома, где он загадывает желание, чтобы его семья исчезла. Ночью сильный ветер повреждает линию электропередачи, в результате чего происходит отключение электроэнергии и будильник сбрасывает установленное время. В утренней суматохе про Кевина забывают, и он остаётся дома.
+                    </p>
+                </div>
+                <div class="movie_block last">
+                    <img class="movie_block_image" src="img/suicide_squad.jpg" alt="movie_averenges">
+                    <p class="movie_block_title">Отряд самоубийц</p>
+                    <p class="movie_block_text">
+                        После смерти Супермена агент разведки Аманда Уоллер собирает группу опасных преступников. Туда входят: сумасшедшая гимнастка-психиатр Харли Квинн, наемный убийца Дэдшот, гангстер-пирокинетик Эль Диабло, вор Капитан Бумеранг, мутант-каннибал Убийца Крок и специализированный наемник Слипнот. Всех их Аманда вытаскивает из тюрьмы «Белль-Рив» и помещает под командование полковника Рика Флага. Отряд собираются использовать в качестве пушечного мяса в миссиях высокого риска для правительства Соединенных Штатов Америки. Каждому члену команды имплантируют в шею нано-бомбу, которая сдетонирует, если кто-либо из отряда попробует взбунтоваться или сбежать.
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="favourite_movies_button" id="movie">
+                <a href="URL">Все фильмы</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                © 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»
+            </p>
+        </div>
+        
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html> 

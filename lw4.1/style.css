@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&subset=cyrillic'); 
+
+body 
+{
+    margin: 0;
+}
+
+.header 
+{
+    height: auto;
+    width: auto;
+}
+
+.header_background 
+{
+    height: 400px;
+    width: auto;
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+}
+
+.header_links 
+{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_links a
+{
+    padding: 20px 20px 15px 43px;  
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 50px;
+    font-family: "Georgia";  
+}
+
+.header_link_about_me 
+{
+    background-image: url("img/about_me.png");
+    background-repeat: no-repeat;
+    background-position: 16px 20px;
+    color: #333333;
+}
+
+.header_link_about_me:hover
+{
+    background-image: url("img/about_me_hover.png");
+    color: #ffffff;
+    background-color: #15a98c;
+}
+
+.header_link_hobbies 
+{
+    background-image: url("img/my_hobbies.png");
+    background-repeat: no-repeat;
+    background-position: 16px 20px;
+    color: #333333;
+}
+
+.header_link_hobbies:hover
+{
+    background-image: url("img/my_hobbies_hover.png");
+    color: #ffffff;
+    background-color: #15a98c;
+}
+
+.header_link_movies 
+{
+    background-image: url("img/favourite_movies.png");
+    background-repeat: no-repeat;
+    background-position: 16px 20px;
+    color: #333333;
+}
+
+.header_link_movies:hover 
+{
+    background-image: url("img/favourite_movies_hover.png");
+    color: #ffffff;
+    background-color: #15a98c;
+}
+
+.main_content
+{
+    max-width: 1000px;
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    padding: 0 10px;
+}
+
+.left_content 
+{
+    float: left;
+    height: auto;
+}
+
+.slide_bar_title 
+{
+    margin-top: 42px;
+    margin-bottom: 0px;
+	font-size: 24px;
+	line-height: 32px;
+	color: #45c3aa;
+	font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.slide_bar_text 
+{
+    margin-top: 10px;
+    padding-left: 20px;
+	font-size: 19px;
+	line-height: 36px;
+	color: #777777;
+	font-family: "Georgia";
+}
+
+.photo
+{
+    width: 330px;
+	height: 350px;
+	border-radius: 5px;
+	background-color: #132d35;
+}
+
+.rigth_content
+{
+    float: right;
+}
+
+.quote
+{
+    padding-top: 4px;
+}
+
+.quote blockquote 
+{
+    margin: 0px;
+}
+
+.quote_text
+{
+    margin-bottom: 15px;
+	font-size: 28px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Georgia";
+	font-style: italic;
+}
+
+.quote_author
+{
+    margin-left: 7px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.about_me
+{
+    margin-top: 128px;
+    margin-left: 0px;
+}
+
+.about_me_title
+{
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.about_me_title_lane
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+}
+
+.about_me_text
+{
+    margin-top: 45px;
+    max-width: 561px;
+    width: 100%;
+    height: auto;
+    font-size: 19px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Georgia";   
+}
+
+.hobbies
+{
+    margin-bottom: 60px;
+}
+
+.hobbies_title
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    margin-bottom: 0px;
+}
+
+.hobbies_text
+{
+    max-width: 561px;
+    width: 100%;
+    height: auto;
+    font-size: 19px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Georgia";
+}
+
+.write_me 
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #15a98b;
+    font-family: "Georgia";
+    text-decoration: none;
+}
+
+.write_me_text
+{
+    text-decoration: underline;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.favourite_movies_background
+{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 30px;
+}
+
+.favourite_movies
+{
+    float: none;
+    max-width: 1200px;
+    min-width: 280px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px; 
+}
+
+.favourite_movies_title 
+{
+    margin-top: 0px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+}
+
+.movie_block
+{
+    max-width: 24%;
+    margin-right: 1.3%;
+    height: auto;
+    float: left;
+}
+
+.movie_block.last
+{
+    margin-right: 0;
+}
+
+.movie_block_title 
+{
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.movie_block_image 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #454545;
+}
+
+.movie_block_text
+{
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.favourite_movies_button 
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98b;
+    text-align: center;
+    
+}
+
+.favourite_movies_button a 
+{
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 50px;
+    color: #e6f0ee;
+    font-family: "Georgia";
+}
+
+.form
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 540px;
+    width: 90%;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Open Sans";
+}
+
+.form_title
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-weight: 100;
+}
+
+.form_title::after 
+{
+    width: 200px;
+    margin: 11px 0 11px 25px;
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.form_title::before 
+{
+    width: 200px;
+    margin: 11px 25px 11px 0;
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.form_label_star::after
+{
+    content: " *";
+    color: #ff0000;
+}
+
+.form_name input
+{
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    max-width: 515px;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    font-size: 18px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Open Sans";
+}
+
+.form_name input:focus
+{
+    border-color: #15a98b;
+}
+
+.form_email input
+{
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    max-width: 515px;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    font-size: 18px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Open Sans";
+}
+
+.form_email input:focus
+{
+    border-color: #15a98b;
+}
+
+.form_country select
+{
+    padding-left: 20px;
+    background-image: url("img/arrow_down.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat; 
+    margin-top: 6px;
+    margin-bottom: 40px;
+    max-width: 540px;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    font-size: 18px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Open Sans";
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.form_country select:focus
+{
+    border: 2px solid #15a98b;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.form_gender p
+{
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.form_gender label
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+
+.form_gender_lable_first
+{
+    padding-right: 34px;
+}
+
+.form_gender input
+{
+    margin-left: 1px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.form_message textarea
+{
+    margin-top: 2px;
+    padding-left: 20px;
+    max-width: 515px;
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    font-size: 18px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Open Sans";
+    resize: none;
+}
+
+.form_message textarea:focus
+{
+    border-color: #15a98c;   
+}
+
+.form_button
+{
+    margin-top: 50px;
+    font-size: 19px;
+    line-height: 50px;
+    color: #e6f0ee;
+    font-family: "Georgia";
+    width: 220px;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #15a98b;
+    cursor: pointer;
+}
+
+.footer 
+{
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    line-height: 32px;
+    color: #777777;
+    font-family: "Georgia";
+}
+
+.footer p
+{
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1034px)
+{
+    .photo
+    {
+        margin: auto;
+    }
+
+    .quote
+    {
+        display: none;
+    }
+
+    .left_content
+    {
+        width: 600px;
+        float: none;
+        margin: auto;
+    }
+    
+    .writers
+    {
+        float: left;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    
+    .movies
+    {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .rigth_content
+    {
+        width: 560px;
+        float: none;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .header_links
+    {
+        width: 600px;
+    }
+    
+    .photo
+    {
+        margin: auto;
+    }
+    
+    .quote
+    {
+        display: none;
+    }
+
+    .left_content
+    {
+        width: 600px;
+        float: none;
+        margin: auto;
+    }
+    
+    .writers
+    {
+        float: left;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    
+    .movies
+    {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .rigth_content
+    {
+        width: 560px;
+        float: none;
+        margin: auto;
+    }
+    
+    .movie_block.first
+    {
+        max-width: 49.5%;
+        margin-right: 1%;
+    }
+    
+    .movie_block.second
+    {
+        max-width: 49.5%;
+        margin-right: 0;
+    }
+    
+    .movie_block.third
+    {
+        max-width: 49.5%;
+        margin-right: 1%;
+        margin-top: 20px;
+        clear: both;
+    }
+    
+    .movie_block.last
+    {
+        max-width: 49.5%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px)
+{
+    .photo
+    {
+        margin: auto;
+    }
+    
+    .quote
+    {
+        display: none;
+    }
+    
+    .left_content
+    {
+        float: none;
+        margin: auto;
+        min-width: 280px;
+    }
+    
+    .writers
+    {
+        float: left;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    
+    .movies
+    {
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .rigth_content
+    {
+        width: auto;
+        float: none;
+    }
+    
+    .form_title::after
+    {
+        display: none;    
+    }
+    
+    .form_title::before
+    {
+        display: none;
+    }
+
+    .form_name
+    {
+        margin-right: 25px;
+    }
+
+    .form_email
+    {
+        margin-right: 25px;
+    }
+    
+    .form_message
+    {
+        margin-right: 25px;
+    }
+    
+    .footer
+    {
+        padding: 0 25px;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 768px)
+{
+    .movie_block.first
+    {
+        max-width: 49.5%;
+        margin-right: 1%;
+    }
+    
+    .movie_block.second
+    {
+        max-width: 49.5%;
+        margin-right: 0;
+    }
+    
+    .movie_block.third
+    {
+        max-width: 49.5%;
+        margin-right: 1%;
+        margin-top: 20px;
+        clear: both;
+    }
+    
+    .movie_block.last
+    {
+        max-width: 49.5%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 610px)
+{
+    .writers
+    {
+        width: 250px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .movies
+    {
+        clear: both;
+        width: 250px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px)
+{
+    .header_links
+    {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+        background-image: url("img/burger_menu.png");
+        background-repeat: no-repeat;
+        background-color: #45c3a9;
+        transition: 3s;
+    }
+    
+    .header_links:hover
+    {
+        width: 100%;
+        height: 260px; /* 260px */
+        background-image: url("img/burger_menu.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #45c3a9;
+        transition: 3s;
+    }
+    
+    .header_links:hover .header_link_about_me
+    {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background-image: none;
+        transition: 1s;
+        background-color: none;
+    }
+    
+    .header_links:hover .header_link_hobbies
+    {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background-image: none;
+        transition: 1s;
+        background-color: none;
+    }
+    
+    .header_links:hover .header_link_movies
+    {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background-image: none;
+        transition: 1s;
+        background-color: none;
+    }
+    
+    .header_link_about_me  
+    {
+        display: none;
+    }
+    
+    .header_link_hobbies
+    {
+        display: none;   
+    }
+    
+    .header_link_movies
+    {
+        display: none;
+    }
+    
+    .movie_block
+    {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .movie_block_last
+    {
+        margin-bottom: 0;
+    }
+}
+    
+@media screen and (min-width: 320px) and (max-width: 400px)
+{
+    .photo
+    {
+        width: 280px;
+        height: 300px;
+    }
+        
+    .movie_block.first
+    {
+        margin-right: 0px;
+    }
+        
+    .movie_block.second
+    {
+        margin-right: 0px;
+    }
+        
+    .movie_block.third
+    {
+        margin-right: 0px;
+    }
+        
+    .movie_block.last
+    {
+        margin-right: 0px;
+    }
+}
